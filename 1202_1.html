@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        nav {
+            width: 960px;
+            background-color: pink;
+            margin: auto;
+            /*        height: 45px;*/
+            /*        overflow: :auto;*/
+        }
+        
+        .logo {
+            float: left;
+            height: 45px;
+            width: 45px;
+            background-color: #01ebff;
+        }
+        
+        .menu {
+            float: right;
+        }
+        
+        .menu ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu ul li {
+            list-style-type: none;
+            float: left;
+            margin-left: 5px
+        }
+        
+        .menu ul li a {
+            display: block;
+            width: 150px;
+            height: 45px;
+            background-color: #ccc;
+            line-height: 45px;
+            text-align: center;
+            color: #333;
+            text-decoration: none;
+            font-family: tahoma;
+        }
+        
+        . clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="clearfix">
+        <div class="logo"></div>
+        <div class="menu">
+            <ul>
+                <li><a herf="#">about</a></li>
+                <li><a herf="#">blog</a></li>
+                <li><a herf="#">service</a></li>
+                <li><a herf="#">contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+</body>
+
+</html>
